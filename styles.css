@@ -168,6 +168,9 @@ ul ul li {
 
 .profile-name {
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .profile-name h3 {
@@ -177,7 +180,7 @@ ul ul li {
 
 .profile-name h4 {
     margin-top: 0px;
-    font-size: max(18px, 1vw);
+    font-size: 24px;
 
     font-family: "NeueMontreal";
 }
@@ -369,10 +372,6 @@ ul ul li {
     #waveform10 {
         width: 90%;
         margin-left: 10px;
-    }
-
-    #stories h3 {
-        margin: 20px 0 5px;
     }
 
     #about-header-mobile {
