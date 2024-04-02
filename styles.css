@@ -289,9 +289,9 @@ li {
         margin-left: 30px;
     }
 
-    #how h3 {
-        font-family: "NeueMontreal-bold", sans-serif;
-        margin-bottom: 5px;
+    .how-statement {
+        font-family: "NeueMontreal-bold";
+        margin-bottom: 20px;
     }
 
     #print-badger {
