@@ -133,6 +133,10 @@ li {
     margin-left: 50px;
 }
 
+.month-title {
+    margin-top: 50px;
+}
+
 .bold {
     font-family: "NeueMontreal-bold";
 }
