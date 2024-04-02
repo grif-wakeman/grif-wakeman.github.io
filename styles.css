@@ -370,6 +370,7 @@ li {
         display: block;
     }
 
+
     #about-header-desktop {
         display: none;
     }
@@ -406,6 +407,8 @@ li {
     .brands-container {
         width: 90%;
         height: auto;
+        margin-right: auto;
+        margin-left: auto;
         margin-top: 20px;
         margin-bottom: 20px;
     }
