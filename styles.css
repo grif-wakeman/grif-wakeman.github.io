@@ -133,6 +133,15 @@ li {
     margin-left: 50px;
 }
 
+ul ul {
+    list-style-type: disc;
+}
+
+ul ul li {
+
+    margin-top: 10px;
+}
+
 .month-title {
     margin-top: 50px;
 }
@@ -781,12 +790,5 @@ li {
         margin-left: 10px;
     }
 
-    ul ul {
-        list-style-type: disc;
-    }
-
-    ul ul li {
-
-        margin-top: 10px;
-    }
+   
 }
