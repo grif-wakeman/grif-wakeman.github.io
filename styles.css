@@ -219,6 +219,10 @@ li {
     margin-bottom: 30px;
 }
 
+#about-header-mobile {
+    display: none;
+}
+
 .graham {
     width: 40%;
     height: auto;
@@ -243,6 +247,7 @@ li {
 .hello {
     font-size: 44px;
 }
+
 
 
 @media only screen and (max-width: 600px) {
@@ -359,6 +364,10 @@ li {
 
     #stories h3 {
         margin: 20px 0 5px;
+    }
+
+    #about-header-mobile {
+        display: block;
     }
 
     #about-header-desktop {
