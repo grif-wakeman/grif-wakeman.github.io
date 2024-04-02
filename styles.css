@@ -1,0 +1,750 @@
+@font-face {
+    font-family: NeueMontreal-bold;
+    font-weight: bold;
+    src: url("./fonts/NeueMontreal-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: NeueMontreal-boldItalic;
+    font-weight: bold;
+    src: url("./fonts/NeueMontreal-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: NeueMontreal-italic;
+    src: url("./fonts/NeueMontreal-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: NeueMontreal-light;
+    src: url("./fonts/NeueMontreal-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: NeueMontreal-lightItalic;
+    src: url("./fonts/NeueMontreal-LightItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: NeueMontreal;
+    src: url("./fonts/NeueMontreal-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: Badger;
+    font-weight: bold;
+    src: url("./fonts/Badger.otf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #191919;
+    color: #d5d5d5;
+}
+
+.red {
+    color: #cd4945;
+}
+
+.green {
+    color: #007E7F;
+}
+
+.green-background {
+    background-color: #007E7F;
+}
+
+.blue {
+    color: #4b75ff;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+.mr {
+    margin-right: 10px;
+}
+
+.img-header {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    pointer-events: none;
+}
+
+#fact-img {
+    width: 60%;
+}
+
+#sba-img {
+    width: 90%;
+}
+
+
+h2 {
+    font-family: "NeueMontreal-bold", sans-serif;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "NeueMontreal-bold", sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family: "NeueMontreal-bold", sans-serif;
+    font-size: 18px;
+}
+
+.callout {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+}
+
+p,
+li {
+    font-family: "NeueMontreal", sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.bold {
+    font-family: "NeueMontreal-bold";
+}
+
+.pitch-text {
+    margin-bottom: 5px;
+}
+
+.play-btn {
+    width: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    margin-left: 10px;
+}
+
+.profile-name h3 {
+    font-size: clamp(24px, 30px, 2vw);
+    margin-top: 0px;
+}
+
+.profile-name h4 {
+    margin-top: 0px;
+    font-size: max(18px, 1vw);
+
+    font-family: "NeueMontreal";
+}
+
+.profile-container h3 {
+    margin-bottom: 0;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #d5d5d5;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#stories p {
+    margin-bottom: 50px;
+}
+
+
+.badger {
+    width: 100%;
+    font-family: "Badger", sans-serif;
+}
+
+#value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#investment {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+#about img {
+    text-align: center;
+}
+
+.about-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.graham {
+    width: 40%;
+    height: auto;
+}
+
+.graham img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.brands-container {
+    width: 35%;
+    height: auto;
+}
+
+.brands-container img {
+    display: block;
+    width: 100%;
+}
+
+.hello {
+    font-size: 44px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #hero-badger {
+        margin: 0px auto 20px;
+        font-size: 8.7vw;
+    }
+
+    .divider {
+        margin: 50px auto;
+        height: 1px;
+
+        background-color: #373737;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-family: "NeueMontreal-bold", sans-serif;
+        letter-spacing: 1px;
+    }
+
+    h3 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .callout i {
+        margin-top: 5px;
+        align-self: flex-start;
+    }
+
+    .callout p {
+        margin-bottom: 0px;
+    }
+
+    #sba-badger {
+        margin: 50px auto 20px;
+        width: 100%;
+        font-size: 2.2rem;
+    }
+
+    li {
+        margin-left: 30px;
+    }
+
+    #how h3 {
+        font-family: "NeueMontreal", sans-serif;
+        margin-bottom: 5px;
+    }
+
+    #print-badger {
+        margin: 50px auto 20px;
+        font-size: 2.1rem;
+    }
+
+    #months h3 {
+        margin-bottom: 5px;
+    }
+
+    #speed-badger {
+        margin: 50px auto 20px;
+        font-size: 2.3rem;
+    }
+
+    #fact-badger {
+        text-align: center;
+        margin: 50px auto 20px;
+        font-size: 2.5rem;
+    }
+
+    .content-block {
+        width: 100%;
+    }
+
+    .audio-stack {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 0px;
+    }
+
+    .audio-container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .music-player {
+        background: #191919;
+        height: 70px;
+        width: 100%;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    #waveform1,
+    #waveform2,
+    #waveform3,
+    #waveform4,
+    #waveform5,
+    #waveform6,
+    #waveform7,
+    #waveform8,
+    #waveform9,
+    #waveform10 {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    #stories h3 {
+        margin: 20px 0 5px;
+    }
+
+    .about-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .graham {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    
+    .graham img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .brands-container {
+        width: 100%;
+        height: auto;
+    }
+    
+    .brands-container img {
+        display: block;
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        width: 90%;
+        padding: 50px;
+    }
+
+    .divider {
+        margin: 50px auto;
+        height: 1px;
+
+        background-color: #373737;
+    }
+
+
+    #hero-badger {
+        margin: 50px auto 20px;
+        font-size: 3.7rem;
+    }
+
+    #sba-badger {
+        margin: 50px auto 20px;
+        font-size: 6.4rem;
+    }
+
+    #print-badger {
+        margin: 50px auto 20px;
+        font-size: 4.4rem;
+    }
+
+    #speed-badger {
+        margin: 50px auto 20px;
+        font-size: 4.7rem;
+    }
+
+    #fact-badger {
+        text-align: center;
+        margin: 50px auto 20px;
+        font-size: 4rem;
+    }
+
+    .content-block {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .audio-container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .audio-stack {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 0px;
+    }
+
+    .music-player {
+        background: #191919;
+        height: 70px;
+        width: 100%;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    #waveform1,
+    #waveform2,
+    #waveform3,
+    #waveform4,
+    #waveform5,
+    #waveform6,
+    #waveform7,
+    #waveform8,
+    #waveform9,
+    #waveform10 {
+        width: 90%;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 80%;
+    }
+
+    .divider {
+        margin: 50px auto;
+        height: 1px;
+
+        background-color: #373737;
+    }
+
+
+    #hero-badger {
+        margin: 50px auto 20px;
+        font-size: 4.8rem;
+    }
+
+    #sba-badger {
+        margin: 50px auto 20px;
+        font-size: 6.4rem;
+    }
+
+    #print-badger {
+        margin: 50px auto 20px;
+        font-size: 4.4rem;
+    }
+
+    #speed-badger {
+        margin: 50px auto 20px;
+        font-size: 4.7rem;
+    }
+
+    #fact-badger {
+        text-align: center;
+        margin: 50px auto 20px;
+        font-size: 4.5rem;
+    }
+
+    .audio-stack {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    .audio-container {
+        width: 50%;
+        margin: auto;
+    }
+
+    #waveform1,
+    #waveform2,
+    #waveform3,
+    #waveform4,
+    #waveform5,
+    #waveform6,
+    #waveform7,
+    #waveform8,
+    #waveform9,
+    #waveform10 {
+        width: 80%;
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    body {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .divider {
+        margin: 50px auto;
+        height: 1px;
+
+        background-color: #373737;
+    }
+
+    #hero-badger {
+        margin: 50px auto 20px;
+        font-size: 4.8rem;
+    }
+
+    #sba-badger {
+        margin: 50px auto 20px;
+        font-size: 6.4rem;
+    }
+
+    #print-badger {
+        margin: 50px auto 20px;
+        font-size: 4.4rem;
+    }
+
+    #speed-badger {
+        margin: 50px auto 20px;
+        font-size: 4.7rem;
+    }
+
+    #fact-badger {
+        text-align: center;
+        margin: 50px auto 20px;
+        font-size: 5rem;
+    }
+
+    .audio-stack {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    .audio-container {
+        width: 50%;
+        margin: auto;
+    }
+
+
+
+
+    .music-player {
+        background: #191919;
+        height: 70px;
+        width: 100%;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    body {
+        width: 100%;
+        padding: 0;
+    }
+
+    #hero-badger {
+        margin: 50px auto 20px;
+        font-size: 4.8rem;
+    }
+
+    #sba-badger {
+        margin: 50px auto 20px;
+        font-size: 6.4rem;
+    }
+
+    #print-badger {
+        margin: 50px auto 20px;
+        font-size: 4.4rem;
+    }
+
+    #speed-badger {
+        margin: 50px auto 20px;
+        font-size: 4.7rem;
+    }
+
+    #fact-badger {
+        text-align: center;
+        margin: 50px auto 20px;
+        font-size: 5rem;
+    }
+
+    #months h3 {
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+
+    .img-header {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        pointer-events: none;
+    }
+
+    .content-block {
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+    }
+
+    .divider {
+        margin: 100px auto;
+        height: 1px;
+        width: 50%;
+        background-color: #373737;
+    }
+
+    .container {
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .cta {
+        display: block;
+        background-color: #187dff;
+        font-family: "NeueMontreal-bold";
+        font-size: 24px;
+        color: #f5f5f5;
+        padding: 14px;
+        border: none;
+        border-radius: 5px;
+        margin: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .cta:hover {
+        background-color: #378cfb;
+        color: #191919;
+        cursor: pointer;
+    }
+
+    .callout {
+        display: flex;
+        align-items: center;
+        border: 1px solid #d4d4d4;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+
+    .callout p {
+        margin-bottom: 0;
+    }
+
+
+
+    .audio-stack {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    .audio-container {
+        width: 50%;
+        margin: auto;
+    }
+
+
+
+
+    .music-player {
+        background: #191919;
+        height: 70px;
+        width: 100%;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    #waveform1,
+    #waveform2,
+    #waveform3,
+    #waveform4,
+    #waveform5,
+    #waveform6,
+    #waveform7,
+    #waveform8,
+    #waveform9,
+    #waveform10 {
+        width: 80%;
+        margin-left: 10px;
+    }
+
+    ul ul {
+        list-style-type: disc;
+    }
+
+    ul ul li {
+
+        margin-top: 10px;
+    }
+}
