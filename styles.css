@@ -361,6 +361,22 @@ li {
         margin: 20px 0 5px;
     }
 
+    #about-header-desktop {
+        display: none;
+    }
+
+    .im-graham {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .im-graham img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
     .about-header {
         display: flex;
         flex-direction: column;
@@ -381,6 +397,8 @@ li {
     .brands-container {
         width: 90%;
         height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .brands-container img {
@@ -431,6 +449,10 @@ li {
         text-align: center;
         margin: 50px auto 20px;
         font-size: 4rem;
+    }
+
+    #about-header-mobile {
+        display: none;
     }
 
     .content-block {
