@@ -260,6 +260,14 @@ ul ul li {
     font-size: 44px;
 }
 
+.not-now {
+    font-size: 10px;
+    color: #555555;
+    width: 200px;
+    margin-bottom: 100px;
+    line-height: .8rem;
+}
+
 
 
 @media only screen and (max-width: 600px) {
