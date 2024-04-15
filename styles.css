@@ -53,7 +53,8 @@ body {
 }
 
 .green {
-    color: #007E7F;
+    /* color: #007E7F; */
+    color: #00bbbd;
 }
 
 .green-background {
