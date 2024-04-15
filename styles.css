@@ -444,6 +444,7 @@ ul ul li {
     body {
         width: 90%;
         padding: 50px;
+        margin: 0 auto;
     }
 
     .divider {
@@ -528,6 +529,7 @@ ul ul li {
 @media only screen and (min-width: 768px) {
     body {
         width: 80%;
+        margin: 0 auto;
     }
 
     .divider {
