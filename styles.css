@@ -117,6 +117,10 @@ h4 {
     padding: 10px 5px;
 }
 
+.callout p {
+    margin-bottom: 0px;
+}
+
 .how-title {
     font-family: "NeueMontreal-bold", sans-serif;
     margin-top: 50px;
@@ -378,7 +382,9 @@ ul ul li {
     #waveform7,
     #waveform8,
     #waveform9,
-    #waveform10 {
+    #waveform10,
+    #waveform11,
+    #waveform12 {
         width: 90%;
         margin-left: 10px;
     }
@@ -520,7 +526,9 @@ ul ul li {
     #waveform7,
     #waveform8,
     #waveform9,
-    #waveform10 {
+    #waveform10,
+    #waveform11,
+    #waveform12 {
         width: 90%;
         margin-left: 10px;
     }
@@ -588,7 +596,9 @@ ul ul li {
     #waveform7,
     #waveform8,
     #waveform9,
-    #waveform10 {
+    #waveform10,
+    #waveform11,
+    #waveform12 {
         width: 80%;
         margin-left: 10px;
     }
@@ -646,6 +656,15 @@ ul ul li {
     .audio-container {
         width: 50%;
         margin: auto;
+    }
+
+    .callout {
+        display: flex;
+        align-items: center;
+        border: 1px solid #555555;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 15px;
     }
 
 
@@ -796,7 +815,9 @@ ul ul li {
     #waveform7,
     #waveform8,
     #waveform9,
-    #waveform10 {
+    #waveform10,
+    #waveform11,
+    #waveform12 {
         width: 80%;
         margin-left: 10px;
     }

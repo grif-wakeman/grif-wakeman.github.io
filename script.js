@@ -1,4 +1,3 @@
-const mites = "./audio/It Might Be Mites Rough Demo.mp3"
 
 // waveform Gradient
 
@@ -15,7 +14,6 @@ const green = "#007E7F";
 
 playBtn = document.getElementById("playBtn");
 playBtn2 = document.getElementById("playBtn2");
-playBtn2Img = document.getElementById("playBtn2Img")
 playBtn3 = document.getElementById("playBtn3");
 playBtn4 = document.getElementById("playBtn4");
 playBtn5 = document.getElementById("playBtn5");
@@ -24,6 +22,8 @@ playBtn7 = document.getElementById("playBtn7");
 playBtn8 = document.getElementById("playBtn8");
 playBtn9 = document.getElementById("playBtn9");
 playBtn10 = document.getElementById("playBtn10");
+playBtn11 = document.getElementById("playBtn11");
+playBtn12 = document.getElementById("playBtn12");
 
 
 
@@ -123,7 +123,7 @@ var wavesurfer6 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer6.load("audio/It’s a Good Life by 1 Luv Apple 15.mp3");
+wavesurfer6.load("/audio/Go Go Go by 2SOLER.mp3");
 
 var wavesurfer7 = WaveSurfer.create({
     container: '#waveform7',
@@ -139,7 +139,7 @@ var wavesurfer7 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer7.load("audio/We Run It by KittyGun Dell 14.mp3");
+wavesurfer7.load("audio/Jungle Electric (Instrumental) by BZRRK.mp3");
 
 var wavesurfer8 = WaveSurfer.create({
     container: '#waveform8',
@@ -155,7 +155,71 @@ var wavesurfer8 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer8.load("audio/Outside feat. 1 Luv by Holly Hilles Microsoft 24.mp3");
+wavesurfer8.load("audio/Cartoon Hellstorm (Instrumental) by Gekkor.mp3");
+
+var wavesurfer9 = WaveSurfer.create({
+    container: '#waveform9',
+    waveColor: '#d5d5d5',
+    progressColor: green,
+    cursorColor: '#0d0d0d',
+    cursorWidth: 0,
+    cursorHeight: .5,
+    barWidth: 1,
+    barHeight: .25,
+    responsive: true,
+    hideScrollbar: true,
+    barRadius: 1,
+    minPxPerSec: 20
+});
+wavesurfer9.load("audio/Green Light by Jetpack Panda.mp3");
+
+var wavesurfer10 = WaveSurfer.create({
+    container: '#waveform10',
+    waveColor: '#d5d5d5',
+    progressColor: green,
+    cursorColor: '#0d0d0d',
+    cursorWidth: 0,
+    cursorHeight: .5,
+    barWidth: 1,
+    barHeight: .25,
+    responsive: true,
+    hideScrollbar: true,
+    barRadius: 1,
+    minPxPerSec: 20
+});
+wavesurfer10.load("audio/Everybody Go by KittyGun.mp3");
+
+var wavesurfer11 = WaveSurfer.create({
+    container: '#waveform11',
+    waveColor: '#d5d5d5',
+    progressColor: green,
+    cursorColor: '#0d0d0d',
+    cursorWidth: 0,
+    cursorHeight: .5,
+    barWidth: 1,
+    barHeight: .25,
+    responsive: true,
+    hideScrollbar: true,
+    barRadius: 1,
+    minPxPerSec: 20
+});
+wavesurfer11.load("audio/This Look Good feat. Lio Rocki by LimeRickyy.mp3");
+
+var wavesurfer12 = WaveSurfer.create({
+    container: '#waveform12',
+    waveColor: '#d5d5d5',
+    progressColor: green,
+    cursorColor: '#0d0d0d',
+    cursorWidth: 0,
+    cursorHeight: .5,
+    barWidth: 1,
+    barHeight: .25,
+    responsive: true,
+    hideScrollbar: true,
+    barRadius: 1,
+    minPxPerSec: 20
+});
+wavesurfer12.load("audio/Goes Like This feat. Wav Haven by LimeRickyy.mp3");
 
 //Play/Pause Functions
 
@@ -177,6 +241,14 @@ playBtn.onclick = function(){
         playBtn7.src = "./assets/play.png";
         wavesurfer8.pause();
         playBtn8.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
     }
     else{
         playBtn.src = "./assets/play.png"
@@ -200,6 +272,14 @@ playBtn2.onclick = function(){
         playBtn7.src = "./assets/play.png";
         wavesurfer8.pause();
         playBtn8.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
     }
     else{
         playBtn2.src = "./assets/play.png"
@@ -223,6 +303,14 @@ playBtn3.onclick = function(){
         playBtn7.src = "./assets/play.png";
         wavesurfer8.pause();
         playBtn8.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
     }
     else{
         playBtn3.src = "./assets/play.png"
@@ -246,6 +334,14 @@ playBtn4.onclick = function(){
         playBtn7.src = "./assets/play.png";
         wavesurfer8.pause();
         playBtn8.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
     }
     else{
         playBtn4.src = "./assets/play.png"
@@ -269,6 +365,14 @@ playBtn5.onclick = function(){
         playBtn7.src = "./assets/play.png";
         wavesurfer8.pause();
         playBtn8.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
     }
     else{
         playBtn5.src = "./assets/play.png"
@@ -292,6 +396,14 @@ playBtn6.onclick = function(){
         playBtn7.src = "./assets/play.png";
         wavesurfer8.pause();
         playBtn8.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
     }
     else{
         playBtn6.src = "./assets/play.png"
@@ -315,6 +427,14 @@ playBtn7.onclick = function(){
         playBtn6.src = "./assets/play.png";
         wavesurfer8.pause();
         playBtn8.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
     }
     else{
         playBtn7.src = "./assets/play.png"
@@ -338,8 +458,140 @@ playBtn8.onclick = function(){
         playBtn6.src = "./assets/play.png";
         wavesurfer7.pause();
         playBtn7.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
     }
     else{
         playBtn8.src = "./assets/play.png"
+    }
+}
+playBtn9.onclick = function(){
+    wavesurfer9.playPause();
+    if(playBtn9.src.match("play")){
+        playBtn9.src  = "./assets/pause.png";
+        wavesurfer.pause();
+        playBtn.src = "./assets/play.png";
+        wavesurfer2.pause();
+        playBtn2.src = "./assets/play.png";
+        wavesurfer3.pause();
+        playBtn3.src = "./assets/play.png";
+        wavesurfer4.pause();
+        playBtn4.src = "./assets/play.png";
+        wavesurfer5.pause();
+        playBtn5.src = "./assets/play.png";
+        wavesurfer6.pause();
+        playBtn6.src = "./assets/play.png";
+        wavesurfer7.pause();
+        playBtn7.src = "./assets/play.png";
+        wavesurfer8.pause();
+        playBtn8.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
+    }
+    else{
+        playBtn9.src = "./assets/play.png"
+    }
+}
+playBtn10.onclick = function(){
+    wavesurfer10.playPause();
+    if(playBtn10.src.match("play")){
+        playBtn10.src  = "./assets/pause.png";
+        wavesurfer.pause();
+        playBtn.src = "./assets/play.png";
+        wavesurfer2.pause();
+        playBtn2.src = "./assets/play.png";
+        wavesurfer3.pause();
+        playBtn3.src = "./assets/play.png";
+        wavesurfer4.pause();
+        playBtn4.src = "./assets/play.png";
+        wavesurfer5.pause();
+        playBtn5.src = "./assets/play.png";
+        wavesurfer6.pause();
+        playBtn6.src = "./assets/play.png";
+        wavesurfer7.pause();
+        playBtn7.src = "./assets/play.png";
+        wavesurfer8.pause();
+        playBtn8.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
+    }
+    else{
+        playBtn10.src = "./assets/play.png"
+    }
+}
+playBtn11.onclick = function(){
+    wavesurfer11.playPause();
+    if(playBtn11.src.match("play")){
+        playBtn11.src  = "./assets/pause.png";
+        wavesurfer.pause();
+        playBtn.src = "./assets/play.png";
+        wavesurfer2.pause();
+        playBtn2.src = "./assets/play.png";
+        wavesurfer3.pause();
+        playBtn3.src = "./assets/play.png";
+        wavesurfer4.pause();
+        playBtn4.src = "./assets/play.png";
+        wavesurfer5.pause();
+        playBtn5.src = "./assets/play.png";
+        wavesurfer6.pause();
+        playBtn6.src = "./assets/play.png";
+        wavesurfer7.pause();
+        playBtn7.src = "./assets/play.png";
+        wavesurfer8.pause();
+        playBtn8.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer12.pause();
+        playBtn12.src = "./assets/play.png";
+    }
+    else{
+        playBtn11.src = "./assets/play.png"
+    }
+}
+playBtn12.onclick = function(){
+    wavesurfer12.playPause();
+    if(playBtn12.src.match("play")){
+        playBtn12.src  = "./assets/pause.png";
+        wavesurfer.pause();
+        playBtn.src = "./assets/play.png";
+        wavesurfer2.pause();
+        playBtn2.src = "./assets/play.png";
+        wavesurfer3.pause();
+        playBtn3.src = "./assets/play.png";
+        wavesurfer4.pause();
+        playBtn4.src = "./assets/play.png";
+        wavesurfer5.pause();
+        playBtn5.src = "./assets/play.png";
+        wavesurfer6.pause();
+        playBtn6.src = "./assets/play.png";
+        wavesurfer7.pause();
+        playBtn7.src = "./assets/play.png";
+        wavesurfer8.pause();
+        playBtn8.src = "./assets/play.png";
+        wavesurfer9.pause();
+        playBtn9.src = "./assets/play.png";
+        wavesurfer10.pause();
+        playBtn10.src = "./assets/play.png";
+        wavesurfer11.pause();
+        playBtn11.src = "./assets/play.png";
+    }
+    else{
+        playBtn12.src = "./assets/play.png"
     }
 }
