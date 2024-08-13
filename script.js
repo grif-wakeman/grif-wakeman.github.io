@@ -6,7 +6,7 @@ const gradient = ctx.createLinearGradient(150, 0, 500, 150)
 gradient.addColorStop(.1, "#f3a9ff");
 gradient.addColorStop(.7, "#83bcff");
 
-const green = "#007E7F";
+const green = "#01BBBC";
 
 
 
@@ -43,7 +43,7 @@ let wavesurfer = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer.load("audio/Octane Pump (Instrumental) by Flux-Eon Pepsi 2.mp3");
+wavesurfer.load("audio/Jungle Electric (Instrumental) by BZRRK.mp3");
 
 var wavesurfer2 = WaveSurfer.create({
     container: '#waveform2',
@@ -59,7 +59,7 @@ var wavesurfer2 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer2.load("audio/Make Your Move by Velvet Riot Adobe 5.mp3");
+wavesurfer2.load("audio/Everybody Go by KittyGun.mp3");
 
 var wavesurfer3 = WaveSurfer.create({
     container: '#waveform3',
@@ -75,7 +75,7 @@ var wavesurfer3 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer3.load("audio/Jump On It (feat Dream Boii) by Model Rawkiss Google 6.mp3");
+wavesurfer3.load("audio/This Look Good feat. Lio Rocki by LimeRickyy.mp3");
 
 var wavesurfer4 = WaveSurfer.create({
     container: '#waveform4',
@@ -91,7 +91,7 @@ var wavesurfer4 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer4.load("audio/Boss It Up (feat. Lio Rocki) by Fruity CBS 4.mp3");
+wavesurfer4.load("audio/Goes Like This feat. Wav Haven by LimeRickyy.mp3");
 
 var wavesurfer5 = WaveSurfer.create({
     container: '#waveform5',
@@ -107,7 +107,7 @@ var wavesurfer5 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer5.load("audio/Leap feat. Jayy Starr by VIP Meta 10.mp3");
+wavesurfer5.load("audio/Cartoon Hellstorm (Instrumental) by Gekkor.mp3");
 
 var wavesurfer6 = WaveSurfer.create({
     container: '#waveform6',
@@ -123,7 +123,7 @@ var wavesurfer6 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer6.load("/audio/Go Go Go by 2SOLER.mp3");
+wavesurfer6.load("audio/Boss It Up (feat. Lio Rocki) by Fruity CBS 4.mp3");
 
 var wavesurfer7 = WaveSurfer.create({
     container: '#waveform7',
@@ -139,7 +139,7 @@ var wavesurfer7 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer7.load("audio/Jungle Electric (Instrumental) by BZRRK.mp3");
+wavesurfer7.load("audio/Go Go Go by 2SOLER.mp3");
 
 var wavesurfer8 = WaveSurfer.create({
     container: '#waveform8',
@@ -155,7 +155,7 @@ var wavesurfer8 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer8.load("audio/Cartoon Hellstorm (Instrumental) by Gekkor.mp3");
+wavesurfer8.load("audio/Green Light by Jetpack Panda.mp3");
 
 var wavesurfer9 = WaveSurfer.create({
     container: '#waveform9',
@@ -171,7 +171,7 @@ var wavesurfer9 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer9.load("audio/Green Light by Jetpack Panda.mp3");
+wavesurfer9.load("audio/Make Your Move by Velvet Riot Adobe 5.mp3");
 
 var wavesurfer10 = WaveSurfer.create({
     container: '#waveform10',
@@ -187,7 +187,7 @@ var wavesurfer10 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer10.load("audio/Everybody Go by KittyGun.mp3");
+wavesurfer10.load("audio/Leap feat. Jayy Starr by VIP Meta 10.mp3");
 
 var wavesurfer11 = WaveSurfer.create({
     container: '#waveform11',
@@ -203,7 +203,7 @@ var wavesurfer11 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer11.load("audio/This Look Good feat. Lio Rocki by LimeRickyy.mp3");
+wavesurfer11.load("audio/Octane Pump (Instrumental) by Flux-Eon Pepsi 2.mp3");
 
 var wavesurfer12 = WaveSurfer.create({
     container: '#waveform12',
@@ -219,7 +219,7 @@ var wavesurfer12 = WaveSurfer.create({
     barRadius: 1,
     minPxPerSec: 20
 });
-wavesurfer12.load("audio/Goes Like This feat. Wav Haven by LimeRickyy.mp3");
+wavesurfer12.load("audio/Jump On It (feat Dream Boii) by Model Rawkiss Google 6.mp3");
 
 //Play/Pause Functions
 
