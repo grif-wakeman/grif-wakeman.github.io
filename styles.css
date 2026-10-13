@@ -774,5 +774,77 @@ ul ul li {
         margin-left: 10px;
     }
 
-   
+
+}
+
+/* Site footer */
+
+.site-footer {
+    border-top: 1px solid #373737;
+    padding: 30px 16px 40px;
+    text-align: center;
+}
+
+.site-footer p {
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    font-family: "NeueMontreal", sans-serif;
+    font-size: 14px;
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Privacy page */
+
+.policy {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 60px 20px 40px;
+}
+
+.policy h1 {
+    font-family: "NeueMontreal-bold", sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.policy h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+}
+
+.policy p,
+.policy li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.policy li {
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.policy a {
+    color: #00bbbd;
+}
+
+.policy .effective {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 30px;
 }
